@@ -10,6 +10,10 @@ public class NucleonSpawner : MonoBehaviour {
 
 	float timeSinceLastSpawn;
 
+	void Awake(){
+//		Application.targetFrameRate = 60;
+	}
+
 	void FixedUpdate(){
 		timeSinceLastSpawn += Time.deltaTime;
 		if (timeSinceLastSpawn >= timeBetweenSpawns) {
