@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/FramesPerSecond.unity
+    path: Assets/_Scenes/_ObjectPools 1.unity
+    guid: 257ce95727a60fe40ae0268e779a01ee
+  - enabled: 1
+    path: Assets/_Scenes/_ObjectPools 2.unity
     guid: 00000000000000000000000000000000
